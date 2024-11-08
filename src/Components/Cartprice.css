@@ -1,0 +1,47 @@
+/* [class^="container"] {
+    background-color: rgba(117, 50, 251, 0.15);
+    border: 1px solid rgba(117, 47, 255, 0.3);
+    padding-bottom: 300px;
+    margin-top: 30px;
+  }
+  [class^="col"] {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(117, 50, 251, 0.15);
+    border: 1px solid rgba(117, 47, 255, 0.3);
+  } */
+  
+
+  body{
+    background-color: royalblue;
+  }
+  .box{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    width: 300px;
+   
+  }
+.free{
+  text-align: center;
+}
+.btn button{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: royalblue;
+  color: white;
+  width:350%;
+}
+
+.disable{
+  opacity: 0.5 !important;
+}
+
+@media screen and (min-width : 992px){
+  .box{
+  position: relative;
+  left: 195px;
+
+  }
+}
